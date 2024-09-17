@@ -9,7 +9,7 @@
                      class="row align-items-center justify-content-between position-relative">
                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-6">
                          <div class="logo">
-                             <a href="index.html" class="d-block"><img src="client_assets/images/logo/logo.png" alt="Larna" /></a>
+                             <a href="/" class="d-block"><img src="client_assets/images/logo/logo.png" alt="DATM" /></a>
                          </div>
                      </div>
                      <!-- /col -->

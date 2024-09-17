@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Larna – Education & Courses HTML Template</title>
+    <title><?= $page_title ?></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Place favicon.ico in the root directory -->
@@ -60,14 +60,13 @@
                                     class="theme-color text-uppercase f-500 d-block mb-6"
                                     data-aos="fade-right"
                                     data-aos-duration="2000"
-                                    data-aos-delay="150">Learn with Larna</span>
+                                    data-aos-delay="150">Learn with DATM</span>
                                 <h1
                                     class="mb-30 text-capitalize"
                                     data-aos="fade-right"
                                     data-aos-duration="2000"
                                     data-aos-delay="150">
-                                    Start Learning <span class="f-700">Web Design</span> in
-                                    <span class="f-700">Larna</span> Today
+                                    Start Learning Today
                                 </h1>
 
                                 <p data-aos="fade-right" data-aos-duration="2000">
@@ -79,8 +78,8 @@
                                     class="home4-hero-bottom d-flex align-items-center justify-content-center justify-content-md-start pt-18">
                                     <div class="home4-btn1 transition5 mr-30">
                                         <a
-                                            href="login.html"
-                                            class="btn text-uppercase f-500 text-white transition5">Sign Up</a>
+                                            href="/courses"
+                                            class="btn text-uppercase f-500 text-white transition5">Courses</a>
                                     </div>
                                     <!-- /btn -->
 
@@ -88,7 +87,7 @@
                                         class="video-player-btn d-flex align-items-center z-index11">
                                         <a
                                             data-fancybox=""
-                                            href="https://youtu.be/nqye02H_H6I"
+                                            href="https://youtu.be/ZO2pstvrzf0"
                                             class="d-flex align-items-center">
                                             <div
                                                 class="video-play-wrap position-relative d-inline-block">
@@ -174,7 +173,7 @@
                             <span
                                 class="sub-title theme-color f-500 text-uppercase d-block mb-15">We are awesome</span>
                             <h2 class="mb-30">
-                                <span class="f-700">22 Years</span> Experience in
+                                <span class="f-700">10 Years</span> Experience in
                                 <span class="f-700">Education</span> and
                                 <span class="f-700">Teaching</span>
                             </h2>
@@ -191,7 +190,7 @@
 
                 <div
                     class="row single-intro-service-wrapper pt-65 pb-35 justify-content-center">
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mx-auto">
                         <div
                             class="single-intro-content text-center white-bg transition5 mb-30 tilt">
                             <div
@@ -201,12 +200,9 @@
                             <!-- /intro ser-icon -->
                             <div class="intro-service-text">
                                 <h6 class="mb-22">Learn Everything</h6>
-                                <p>
-                                    Pore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud ullamo labo papris nisi uea
-                                </p>
+                               
                                 <a
-                                    href="product-details.html"
+                                    href="/"
                                     class="pt-20 d-block text-uppercase primary-color f-500">Read More</a>
                             </div>
                         </div>
@@ -214,7 +210,7 @@
                     </div>
                     <!-- /col -->
 
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mx-auto">
                         <div
                             class="single-intro-content text-center white-bg transition5 mb-30 tilt">
                             <div
@@ -224,12 +220,9 @@
                             <!-- /intro ser-icon -->
                             <div class="intro-service-text">
                                 <h6 class="mb-22">Top Quality Education</h6>
-                                <p>
-                                    Pore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud ullamo labo papris nisi uea
-                                </p>
+                                
                                 <a
-                                    href="product-details.html"
+                                    href="/"
                                     class="pt-20 d-block text-uppercase primary-color f-500">Read More</a>
                             </div>
                         </div>
@@ -237,7 +230,7 @@
                     </div>
                     <!-- /col -->
 
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 mx-auto">
                         <div
                             class="single-intro-content text-center white-bg transition5 mb-30 tilt">
                             <div
@@ -247,12 +240,9 @@
                             <!-- /intro ser-icon -->
                             <div class="intro-service-text">
                                 <h6 class="mb-22">Get Certified</h6>
-                                <p>
-                                    Pore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                    nostrud ullamo labo papris nisi uea
-                                </p>
+                               
                                 <a
-                                    href="product-details.html"
+                                    href="/"
                                     class="pt-20 d-block text-uppercase primary-color f-500">Read More</a>
                             </div>
                         </div>
@@ -268,7 +258,7 @@
 
         <!-- ====== course-category-area-start
             ==================================================== -->
-        <div
+        <!-- <div
             class="home4-category-bg bg-no-repeat"
             data-background="client_assets/images/bg/home4-course-bg.png">
             <div
@@ -287,11 +277,11 @@
                                         sodales massa finibus imperdiet.
                                     </p>
                                 </div>
-                                <!-- /title -->
+                                
                             </div>
-                            <!-- /col -->
+                        
                         </div>
-                        <!-- /row -->
+                  
 
                         <div class="row course-category mt-105 grid">
                             <div
@@ -314,9 +304,9 @@
                                         <span class="text-white mb-2 d-block text-uppercase">22 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                                
                             </div>
-                            <!-- /col -->
+                            
 
                             <div
                                 class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 grid-item aos-init aos-animate"
@@ -338,9 +328,9 @@
                                         <span class="text-white mb-2 d-block text-uppercase">28 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                              
                             </div>
-                            <!-- /col -->
+                          
 
                             <div
                                 class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 grid-item aos-init aos-animate"
@@ -362,9 +352,9 @@
                                         <span class="text-white mb-2 d-block text-uppercase">11 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                              
                             </div>
-                            <!-- /col -->
+                           
 
                             <div
                                 class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 grid-item aos-init aos-animate"
@@ -386,9 +376,9 @@
                                         <span class="text-white mb-2 d-block text-uppercase">22 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                               
                             </div>
-                            <!-- /col -->
+                        
 
                             <div
                                 class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 grid-item aos-init aos-animate"
@@ -410,9 +400,9 @@
                                         <span class="text-white mb-2 d-block text-uppercase">22 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                               
                             </div>
-                            <!-- /col -->
+                        
 
                             <div
                                 class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 grid-item aos-init aos-animate"
@@ -434,9 +424,9 @@
                                         <span class="text-white mb-2 d-block text-uppercase">42 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                            
                             </div>
-                            <!-- /col -->
+                          
 
                             <div
                                 class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 grid-item aos-init aos-animate"
@@ -458,9 +448,9 @@
                                         <span class="text-white mb-2 d-block text-uppercase">22 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                                
                             </div>
-                            <!-- /col -->
+                            
 
                             <div
                                 class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-12 grid-item aos-init aos-animate"
@@ -482,18 +472,18 @@
                                         <span class="text-white mb-2 d-block text-uppercase">15 Course</span>
                                     </div>
                                 </div>
-                                <!-- /single-course-category -->
+                              
                             </div>
-                            <!-- /col -->
+                           
                         </div>
-                        <!-- /row -->
+                        
                     </div>
-                    <!-- /container -->
+                    
                 </div>
-                <!-- /course-category-wrapper -->
+                
             </div>
-            <!-- course-category-area-end -->
-        </div>
+           
+        </div> -->
         <!-- /home4-intro-and-category-bg -->
 
         <!-- ====== popular-course-area-start=========================================== -->
@@ -509,8 +499,7 @@
                                 Check Our <span class="f-700">Recent</span> Courses
                             </h2>
                             <p class="mb-0">
-                                At the Learna Education users can learn lots of things from
-                                real hoyto kokno ar fera expert
+                                At the DATM Education users can learn lots of things 
                             </p>
                         </div>
                         <!-- /title -->
@@ -523,7 +512,7 @@
                             data-aos="fade-up"
                             data-aos-duration="1000">
                             <a
-                                href="course.html"
+                                href="/courses"
                                 class="main-color d-inline-block position-relative f-500 text-uppercase">View All Course</a>
                         </div>
                         <!-- /btn-2 -->
@@ -534,456 +523,328 @@
 
                 <div
                     class="home3-popular-course mt-110 mb-40 row justify-content-center">
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-popular-course zoom-img-hover">
-                            <div class="position-relative">
-                                <div class="p-course-img over-hidden position-relative">
-                                    <img
-                                        class="w-100 img"
-                                        src="client_assets/images/course/popular-course-img1.jpg"
-                                        alt="course-image01" />
+                    <div class="row courses-tab-grid">
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                    <div class="single-popular-course zoom-img-hover">
+                                        <div class="position-relative">
+                                            <div class="p-course-img over-hidden position-relative">
+                                                <img
+                                                    class="w-100 img"
+                                                    src="assets/uploads/courses/1.jpg"
+                                                    alt="course-image01" />
 
-                                    <div class="pc-category z-index1 position-absolute">
-                                        <span
-                                            class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                <div class="pc-category z-index1 position-absolute">
+                                                    <span
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
+                                                </div>
+                                                <!-- /pc-category  -->
+                                            </div>
+                                            <!-- /p-course img -->
+
+                                           
+                                        </div>
+
+                                        <div
+                                            class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
+                                            <div
+                                                class="popular-course-review d-flex align-items-center mb-1">
+                                                <ul class="review-ratting mr-10">
+                                                    <li>
+                                                        <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
+                                                        <span><i class="fa fa-star"></i></span>
+                                                    </li>
+                                                </ul>
+                                                <!-- /review-ratting -->
+                                                <div class="p-c-review">
+                                                    <p class="mb-0">243 Review</p>
+                                                </div>
+                                                <!-- /p-c-review -->
+                                            </div>
+                                            <!-- /popular-course-review -->
+
+                                            <div
+                                                class="single-popular-course-content primary-border-bottom pb-6">
+                                                <h3>
+                                                    <a href="course-details.html">M.SC IN Computer Science</a>
+                                                </h3>
+                                                
+                                            </div>
+                                            <!-- /course-content -->
+
+                                        </div>
+                                        <!-- /popular-course-content-wrapper -->
                                     </div>
-                                    <!-- /pc-category  -->
+                                    <!-- /single-course -->
                                 </div>
-                                <!-- /p-course img -->
+                                <!-- /col -->
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                    <div class="single-popular-course zoom-img-hover">
+                                        <div class="position-relative">
+                                            <div class="p-course-img over-hidden position-relative">
+                                                <img
+                                                    class="w-100 img"
+                                                    src="assets/uploads/courses/2.jpg"
+                                                    alt="course-image01" />
 
-                                <div class="pc-author-img z-index1 position-absolute">
-                                    <img src="client_assets/images/course/course-author-img1.jpg" alt="" />
+                                                <div class="pc-category z-index1 position-absolute">
+                                                    <span
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
+                                                </div>
+                                                <!-- /pc-category  -->
+                                            </div>
+                                            <!-- /p-course img -->
+
+                                           
+                                        </div>
+
+                                        <div
+                                            class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
+                                            <div
+                                                class="popular-course-review d-flex align-items-center mb-1">
+                                                <ul class="review-ratting mr-10">
+                                                    <li>
+                                                        <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
+                                                        <span><i class="fa fa-star"></i></span>
+                                                    </li>
+                                                </ul>
+                                                <!-- /review-ratting -->
+                                                <div class="p-c-review">
+                                                    <p class="mb-0">243 Review</p>
+                                                </div>
+                                                <!-- /p-c-review -->
+                                            </div>
+                                            <!-- /popular-course-review -->
+
+                                            <div
+                                                class="single-popular-course-content primary-border-bottom pb-6">
+                                                <h3>
+                                                    <a href="course-details.html">Dietetics & Nutrition</a>
+                                                </h3>
+                                                
+                                            </div>
+                                            <!-- /course-content -->
+
+                                        </div>
+                                        <!-- /popular-course-content-wrapper -->
+                                    </div>
+                                    <!-- /single-course -->
                                 </div>
-                                <!-- /author-img -->
+                                <!-- /col -->
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                    <div class="single-popular-course zoom-img-hover">
+                                        <div class="position-relative">
+                                            <div class="p-course-img over-hidden position-relative">
+                                                <img
+                                                    class="w-100 img"
+                                                    src="assets/uploads/courses/3.jpg"
+                                                    alt="course-image01" />
+
+                                                <div class="pc-category z-index1 position-absolute">
+                                                    <span
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">MASTER</span>
+                                                </div>
+                                                <!-- /pc-category  -->
+                                            </div>
+                                            <!-- /p-course img -->
+
+                                           
+                                        </div>
+
+                                        <div
+                                            class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
+                                            <div
+                                                class="popular-course-review d-flex align-items-center mb-1">
+                                                <ul class="review-ratting mr-10">
+                                                    <li>
+                                                        <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
+                                                        <span><i class="fa fa-star"></i></span>
+                                                    </li>
+                                                </ul>
+                                                <!-- /review-ratting -->
+                                                <div class="p-c-review">
+                                                    <p class="mb-0">243 Review</p>
+                                                </div>
+                                                <!-- /p-c-review -->
+                                            </div>
+                                            <!-- /popular-course-review -->
+
+                                            <div
+                                                class="single-popular-course-content primary-border-bottom pb-6">
+                                                <h3>
+                                                    <a href="course-details.html">Master In Public Health</a>
+                                                </h3>
+                                                
+                                            </div>
+                                            <!-- /course-content -->
+
+                                        </div>
+                                        <!-- /popular-course-content-wrapper -->
+                                    </div>
+                                    <!-- /single-course -->
+                                </div>
+                                <!-- /col -->
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                    <div class="single-popular-course zoom-img-hover">
+                                        <div class="position-relative">
+                                            <div class="p-course-img over-hidden position-relative">
+                                                <img
+                                                    class="w-100 img"
+                                                    src="assets/uploads/courses/4.jpg"
+                                                    alt="course-image01" />
+
+                                                <div class="pc-category z-index1 position-absolute">
+                                                    <span
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
+                                                </div>
+                                                <!-- /pc-category  -->
+                                            </div>
+                                            <!-- /p-course img -->
+
+                                           
+                                        </div>
+
+                                        <div
+                                            class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
+                                            <div
+                                                class="popular-course-review d-flex align-items-center mb-1">
+                                                <ul class="review-ratting mr-10">
+                                                    <li>
+                                                        <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
+                                                        <span><i class="fa fa-star"></i></span>
+                                                    </li>
+                                                </ul>
+                                                <!-- /review-ratting -->
+                                                <div class="p-c-review">
+                                                    <p class="mb-0">243 Review</p>
+                                                </div>
+                                                <!-- /p-c-review -->
+                                            </div>
+                                            <!-- /popular-course-review -->
+
+                                            <div
+                                                class="single-popular-course-content primary-border-bottom pb-6">
+                                                <h3>
+                                                    <a href="course-details.html">M.SC In Clinical Psychology</a>
+                                                </h3>
+                                                
+                                            </div>
+                                            <!-- /course-content -->
+
+                                        </div>
+                                        <!-- /popular-course-content-wrapper -->
+                                    </div>
+                                    <!-- /single-course -->
+                                </div>
+                                <!-- /col -->
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                    <div class="single-popular-course zoom-img-hover">
+                                        <div class="position-relative">
+                                            <div class="p-course-img over-hidden position-relative">
+                                                <img
+                                                    class="w-100 img"
+                                                    src="assets/uploads/courses/5.jpg"
+                                                    alt="course-image01" />
+
+                                                <div class="pc-category z-index1 position-absolute">
+                                                    <span
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
+                                                </div>
+                                                <!-- /pc-category  -->
+                                            </div>
+                                            <!-- /p-course img -->
+
+                                           
+                                        </div>
+
+                                        <div
+                                            class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
+                                            <div
+                                                class="popular-course-review d-flex align-items-center mb-1">
+                                                <ul class="review-ratting mr-10">
+                                                    <li>
+                                                        <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
+                                                        <span><i class="fa fa-star"></i></span>
+                                                    </li>
+                                                </ul>
+                                                <!-- /review-ratting -->
+                                                <div class="p-c-review">
+                                                    <p class="mb-0">243 Review</p>
+                                                </div>
+                                                <!-- /p-c-review -->
+                                            </div>
+                                            <!-- /popular-course-review -->
+
+                                            <div
+                                                class="single-popular-course-content primary-border-bottom pb-6">
+                                                <h3>
+                                                    <a href="course-details.html">M.SC In Medical Lab Technology</a>
+                                                </h3>
+                                               
+                                            </div>
+                                            <!-- /course-content -->
+
+                                        </div>
+                                        <!-- /popular-course-content-wrapper -->
+                                    </div>
+                                    <!-- /single-course -->
+                                </div>
+                                <!-- /col -->
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                    <div class="single-popular-course zoom-img-hover">
+                                        <div class="position-relative">
+                                            <div class="p-course-img over-hidden position-relative">
+                                                <img
+                                                    class="w-100 img"
+                                                    src="assets/uploads/courses/6.jpg"
+                                                    alt="course-image01" />
+
+                                                <div class="pc-category z-index1 position-absolute">
+                                                    <span
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">BMLT</span>
+                                                </div>
+                                                <!-- /pc-category  -->
+                                            </div>
+                                            <!-- /p-course img -->
+
+                                           
+                                        </div>
+
+                                        <div
+                                            class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
+                                            <div
+                                                class="popular-course-review d-flex align-items-center mb-1">
+                                                <ul class="review-ratting mr-10">
+                                                    <li>
+                                                        <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
+                                                        <span><i class="fa fa-star"></i></span>
+                                                    </li>
+                                                </ul>
+                                                <!-- /review-ratting -->
+                                                <div class="p-c-review">
+                                                    <p class="mb-0">243 Review</p>
+                                                </div>
+                                                <!-- /p-c-review -->
+                                            </div>
+                                            <!-- /popular-course-review -->
+
+                                            <div
+                                                class="single-popular-course-content primary-border-bottom pb-6">
+                                                <h3>
+                                                    <a href="course-details.html">BMLT (Bachelor Of Medical Laboratory Technology)</a>
+                                                </h3>
+                                                
+                                            </div>
+                                            <!-- /course-content -->
+
+                                        </div>
+                                        <!-- /popular-course-content-wrapper -->
+                                    </div>
+                                    <!-- /single-course -->
+                                </div>
+                               
+
+                                
                             </div>
-
-                            <div
-                                class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
-                                <div
-                                    class="popular-course-review d-flex align-items-center mb-1">
-                                    <ul class="review-ratting mr-10">
-                                        <li>
-                                            <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                        </li>
-                                    </ul>
-                                    <!-- /review-ratting -->
-                                    <div class="p-c-review">
-                                        <p class="mb-0">243 Review</p>
-                                    </div>
-                                    <!-- /p-c-review -->
-                                </div>
-                                <!-- /popular-course-review -->
-
-                                <div
-                                    class="single-popular-course-content primary-border-bottom pb-6">
-                                    <h3>
-                                        <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                            photoshop</a>
-                                    </h3>
-                                    <p class="admin mb-2">
-                                        By
-                                        <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                    </p>
-                                    <p>
-                                        At torem ipsum conse icing elit, sed do eiusmod tempor iur
-                                        onre dol ...
-                                    </p>
-                                </div>
-                                <!-- /course-content -->
-
-                                <div
-                                    class="pc-info d-flex align-items-center justify-content-between pt-12 pb-15">
-                                    <p class="pc-student mb-0">
-                                        <span><i class="fal fa-user"></i></span>
-                                        3584
-                                    </p>
-                                    <div class="pc-price">
-                                        <span class="primary-color f-500 d-inline-block">$199</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /popular-course-content-wrapper -->
-                        </div>
-                        <!-- /single-course -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-popular-course zoom-img-hover">
-                            <div class="position-relative">
-                                <div class="p-course-img over-hidden position-relative">
-                                    <img
-                                        class="w-100 img"
-                                        src="client_assets/images/course/popular-course-img2.jpg"
-                                        alt="course-image01" />
-
-                                    <div class="pc-category z-index1 position-absolute">
-                                        <span
-                                            class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
-                                    </div>
-                                    <!-- /pc-category  -->
-                                </div>
-                                <!-- /p-course img -->
-
-                                <div class="pc-author-img z-index1 position-absolute">
-                                    <img src="client_assets/images/course/course-author-img2.jpg" alt="" />
-                                </div>
-                                <!-- /author-img -->
-                            </div>
-
-                            <div
-                                class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
-                                <div
-                                    class="popular-course-review d-flex align-items-center mb-1">
-                                    <ul class="review-ratting mr-10">
-                                        <li>
-                                            <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                        </li>
-                                    </ul>
-                                    <!-- /review-ratting -->
-                                    <div class="p-c-review">
-                                        <p class="mb-0">243 Review</p>
-                                    </div>
-                                    <!-- /p-c-review -->
-                                </div>
-                                <!-- /popular-course-review -->
-
-                                <div
-                                    class="single-popular-course-content primary-border-bottom bg-white pb-6">
-                                    <h3>
-                                        <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                            photoshop</a>
-                                    </h3>
-                                    <p class="admin mb-2">
-                                        By
-                                        <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                    </p>
-                                    <p>
-                                        At torem ipsum conse icing elit, sed do eiusmod tempor iur
-                                        onre dol ...
-                                    </p>
-                                </div>
-                                <!-- /course-content -->
-
-                                <div
-                                    class="pc-info d-flex align-items-center justify-content-between pt-12 pb-15">
-                                    <p class="pc-student mb-0">
-                                        <span><i class="fal fa-user"></i></span>
-                                        3584
-                                    </p>
-                                    <div class="pc-price">
-                                        <span class="primary-color f-500 d-inline-block">$199</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /popular-course-content-wrapper -->
-                        </div>
-                        <!-- /single-course -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-popular-course zoom-img-hover">
-                            <div class="position-relative">
-                                <div class="p-course-img over-hidden position-relative">
-                                    <img
-                                        class="w-100 img"
-                                        src="client_assets/images/course/popular-course-img3.jpg"
-                                        alt="course-image01" />
-
-                                    <div class="pc-category z-index1 position-absolute">
-                                        <span
-                                            class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
-                                    </div>
-                                    <!-- /pc-category  -->
-                                </div>
-                                <!-- /p-course img -->
-
-                                <div class="pc-author-img z-index1 position-absolute">
-                                    <img src="client_assets/images/course/course-author-img3.jpg" alt="" />
-                                </div>
-                                <!-- /author-img -->
-                            </div>
-
-                            <div
-                                class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
-                                <div
-                                    class="popular-course-review d-flex align-items-center mb-1">
-                                    <ul class="review-ratting mr-10">
-                                        <li>
-                                            <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                        </li>
-                                    </ul>
-                                    <!-- /review-ratting -->
-                                    <div class="p-c-review">
-                                        <p class="mb-0">243 Review</p>
-                                    </div>
-                                    <!-- /p-c-review -->
-                                </div>
-                                <!-- /popular-course-review -->
-
-                                <div
-                                    class="single-popular-course-content primary-border-bottom bg-white pb-6">
-                                    <h3>
-                                        <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                            photoshop</a>
-                                    </h3>
-                                    <p class="admin mb-2">
-                                        By
-                                        <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                    </p>
-                                    <p>
-                                        At torem ipsum conse icing elit, sed do eiusmod tempor iur
-                                        onre dol ...
-                                    </p>
-                                </div>
-                                <!-- /course-content -->
-
-                                <div
-                                    class="pc-info d-flex align-items-center justify-content-between pt-12 pb-15">
-                                    <p class="pc-student mb-0">
-                                        <span><i class="fal fa-user"></i></span>
-                                        3584
-                                    </p>
-                                    <div class="pc-price">
-                                        <span class="primary-color f-500 d-inline-block">$199</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /popular-course-content-wrapper -->
-                        </div>
-                        <!-- /single-course -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-popular-course zoom-img-hover">
-                            <div class="position-relative">
-                                <div
-                                    class="p-course-img over-hidden position-relative z-index-1">
-                                    <img
-                                        class="w-100 img"
-                                        src="client_assets/images/course/popular-course-img4.jpg"
-                                        alt="course-image01" />
-
-                                    <div class="pc-category z-index1 position-absolute">
-                                        <span
-                                            class="text-white f-500 theme-bg d-inline-block py-1 px-3">Software</span>
-                                    </div>
-                                    <!-- /pc-category  -->
-                                </div>
-                                <!-- /p-course img -->
-
-                                <div class="pc-author-img z-index1 position-absolute">
-                                    <img src="client_assets/images/course/course-author-img1.jpg" alt="" />
-                                </div>
-                                <!-- /author-img -->
-                            </div>
-
-                            <div
-                                class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
-                                <div
-                                    class="popular-course-review d-flex align-items-center mb-1">
-                                    <ul class="review-ratting mr-10">
-                                        <li>
-                                            <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                        </li>
-                                    </ul>
-                                    <!-- /review-ratting -->
-                                    <div class="p-c-review">
-                                        <p class="mb-0">243 Review</p>
-                                    </div>
-                                    <!-- /p-c-review -->
-                                </div>
-                                <!-- /popular-course-review -->
-
-                                <div
-                                    class="single-popular-course-content primary-border-bottom bg-white pb-6">
-                                    <h3>
-                                        <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                            photoshop</a>
-                                    </h3>
-                                    <p class="admin mb-2">
-                                        By
-                                        <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                    </p>
-                                    <p>
-                                        At torem ipsum conse icing elit, sed do eiusmod tempor iur
-                                        onre dol ...
-                                    </p>
-                                </div>
-                                <!-- /course-content -->
-
-                                <div
-                                    class="pc-info d-flex align-items-center justify-content-between pt-12 pb-15">
-                                    <p class="pc-student mb-0">
-                                        <span><i class="fal fa-user"></i></span>
-                                        3584
-                                    </p>
-                                    <div class="pc-price">
-                                        <span class="primary-color f-500 d-inline-block">$199</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /popular-course-content-wrapper -->
-                        </div>
-                        <!-- /single-course -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-popular-course zoom-img-hover">
-                            <div class="position-relative">
-                                <div class="p-course-img over-hidden position-relative">
-                                    <img
-                                        class="w-100 img"
-                                        src="client_assets/images/course/popular-course-img5.jpg"
-                                        alt="course-image01" />
-
-                                    <div class="pc-category z-index1 position-absolute">
-                                        <span
-                                            class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
-                                    </div>
-                                    <!-- /pc-category  -->
-                                </div>
-                                <!-- /p-course img -->
-
-                                <div class="pc-author-img z-index1 position-absolute">
-                                    <img src="client_assets/images/course/course-author-img1.jpg" alt="" />
-                                </div>
-                                <!-- /author-img -->
-                            </div>
-
-                            <div
-                                class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
-                                <div
-                                    class="popular-course-review d-flex align-items-center mb-1">
-                                    <ul class="review-ratting mr-10">
-                                        <li>
-                                            <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                        </li>
-                                    </ul>
-                                    <!-- /review-ratting -->
-                                    <div class="p-c-review">
-                                        <p class="mb-0">243 Review</p>
-                                    </div>
-                                    <!-- /p-c-review -->
-                                </div>
-                                <!-- /popular-course-review -->
-
-                                <div
-                                    class="single-popular-course-content primary-border-bottom bg-white pb-6">
-                                    <h3>
-                                        <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                            photoshop</a>
-                                    </h3>
-                                    <p class="admin mb-2">
-                                        By
-                                        <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                    </p>
-                                    <p>
-                                        At torem ipsum conse icing elit, sed do eiusmod tempor iur
-                                        onre dol ...
-                                    </p>
-                                </div>
-                                <!-- /course-content -->
-
-                                <div
-                                    class="pc-info d-flex align-items-center justify-content-between pt-12 pb-15">
-                                    <p class="pc-student mb-0">
-                                        <span><i class="fal fa-user"></i></span>
-                                        3584
-                                    </p>
-                                    <div class="pc-price">
-                                        <span class="primary-color f-500 d-inline-block">$199</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /popular-course-content-wrapper -->
-                        </div>
-                        <!-- /single-course -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-popular-course zoom-img-hover">
-                            <div class="position-relative">
-                                <div class="p-course-img over-hidden position-relative">
-                                    <img
-                                        class="w-100 img"
-                                        src="client_assets/images/course/popular-course-img6.jpg"
-                                        alt="course-image01" />
-
-                                    <div class="pc-category z-index1 position-absolute">
-                                        <span
-                                            class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
-                                    </div>
-                                    <!-- /pc-category  -->
-                                </div>
-                                <!-- /p-course img -->
-
-                                <div class="pc-author-img z-index1 position-absolute">
-                                    <img src="client_assets/images/course/course-author-img3.jpg" alt="" />
-                                </div>
-                                <!-- /author-img -->
-                            </div>
-
-                            <div
-                                class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
-                                <div
-                                    class="popular-course-review d-flex align-items-center mb-1">
-                                    <ul class="review-ratting mr-10">
-                                        <li>
-                                            <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
-                                            <span><i class="fa fa-star"></i></span>
-                                        </li>
-                                    </ul>
-                                    <!-- /review-ratting -->
-                                    <div class="p-c-review">
-                                        <p class="mb-0">243 Review</p>
-                                    </div>
-                                    <!-- /p-c-review -->
-                                </div>
-                                <!-- /popular-course-review -->
-
-                                <div
-                                    class="single-popular-course-content primary-border-bottom bg-white pb-6">
-                                    <h3>
-                                        <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                            photoshop</a>
-                                    </h3>
-                                    <p class="admin mb-2">
-                                        By
-                                        <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                    </p>
-                                    <p>
-                                        At torem ipsum conse icing elit, sed do eiusmod tempor iur
-                                        onre dol ...
-                                    </p>
-                                </div>
-                                <!-- /course-content -->
-
-                                <div
-                                    class="pc-info d-flex align-items-center justify-content-between pt-12 pb-15">
-                                    <p class="pc-student mb-0">
-                                        <span><i class="fal fa-user"></i></span>
-                                        3584
-                                    </p>
-                                    <div class="pc-price">
-                                        <span class="primary-color f-500 d-inline-block">$199</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /popular-course-content-wrapper -->
-                        </div>
-                        <!-- /single-course -->
-                    </div>
-                    <!-- /col -->
                 </div>
                 <!-- /row -->
             </div>
@@ -1068,11 +929,11 @@
                                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
                                 qui officia deserunt mollit anim
                             </p>
-                            <div class="home4-btn1 transition5 mt-55">
+                            <!-- <div class="home4-btn1 transition5 mt-55">
                                 <a
                                     href="login.html"
                                     class="btn text-white text-uppercase f-500 transition5">Sign Up</a>
-                            </div>
+                            </div> -->
                             <!-- /btn -->
                         </div>
                         <!-- /about-content -->
@@ -1131,8 +992,7 @@
                             <span
                                 class="sub-title theme-color f-500 text-uppercase d-block mb-15">We are awesome</span>
                             <h2 class="mb-30">
-                                <span class="f-700">World Class</span> Educatoin for
-                                <span class="f-700">Everyone</span>
+                                <span class="f-700">Skilled and Experienced Faculty</span> 
                             </h2>
                             <p class="pb-0 mb-0">
                                 Nullam at elementum odque auctor dui. Donec non nunc sodales
@@ -1155,7 +1015,7 @@
                                     src="client_assets/images/icon/hm4-feature-icon1.jpg"
                                     alt="" />
                             </div>
-                            <h3 class="mb-25 mt--20">Award winning course management</h3>
+                            <h3 class="mb-25 mt--20">Modern Learning Infrastructure</h3>
                             <p>
                                 Ampor incididunt ut labore et dolore magna aliqua. Ut enim ad
                                 minim Lorem ipsum dolor sit amet, consectetur adipisicing elit
@@ -1206,7 +1066,7 @@
                                     alt="" />
                             </div>
                             <h3 class="mb-25 mt--20">
-                                Learn anything from anywhere anytime
+                            Practical, Career-Oriented Training
                             </h3>
                             <p>
                                 Ampor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -1232,7 +1092,7 @@
                                     alt="" />
                             </div>
                             <h3 class="mb-25 mt--20">
-                                Certification for solid developemnt of your career
+                                Strong Alumni Network
                             </h3>
                             <p>
                                 Ampor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -1443,7 +1303,7 @@
                     <div class="col-xl-7 col-lg-7 col-md-10 col-sm-12 col-12">
                         <div class="title text-center">
                             <h2 class="mb-30">
-                                Join Over <span class="f-700">5 Million</span> Students
+                                Join Over <span class="f-700">5 Thousand</span> Students
                             </h2>
                             <p class="pb-30">
                                 Nullam at elementum odque auctor dui. Donec non nunc sodales
@@ -1457,17 +1317,7 @@
                 <!-- /row -->
 
                 <div class="row home4-fact-wrapper mt-50 justify-content-center">
-                    <div
-                        class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 justify-content-center">
-                        <div class="home4-single-fact hm4-fact1 text-center mb-30 tilt">
-                            <div class="d-flex align-items-center justify-content-center">
-                                <span class="main-color f-500 d-inline-block counter">1068</span>
-                            </div>
-                            <h5 class="secondary-color mt-2 f-400">Online Courses</h5>
-                        </div>
-                        <!-- /single-fact -->
-                    </div>
-                    <!-- /col -->
+                    
 
                     <div
                         class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 justify-content-center">
@@ -1488,7 +1338,7 @@
                                 <span class="main-color f-500 d-inline-block counter">500</span>
                                 <span class="per main-color d-inline-block f-700">K</span>
                             </div>
-                            <h5 class="secondary-color mt-2 f-400">Students Worldwide</h5>
+                            <h5 class="secondary-color mt-2 f-400">Students </h5>
                         </div>
                         <!-- /single-fact -->
                     </div>
@@ -1527,8 +1377,8 @@
                                     <div class="home4-banner-btn text-center mt-60">
                                         <div class="home4-btn2">
                                             <a
-                                                href="contact.html"
-                                                class="btn text-white f-500 text-uppercase">sign up</a>
+                                                href="/courses"
+                                                class="btn text-white f-500 text-uppercase">Courses</a>
                                         </div>
                                         <!-- /my-btn -->
                                     </div>
@@ -1744,20 +1594,7 @@
                     <!-- /row -->
                 </div>
 
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <div
-                            class="btn-2 mb-md-1 mb-5 d-block aos-init aos-animate"
-                            data-aos="fade-up"
-                            data-aos-duration="1000">
-                            <a
-                                href="instructor-details.html"
-                                class="main-color d-inline-block position-relative f-500 text-uppercase">All Instructors</a>
-                        </div>
-                        <!-- /btn-2 -->
-                    </div>
-                    <!-- /col -->
-                </div>
+               
                 <!-- /row -->
             </div>
             <!-- /container -->

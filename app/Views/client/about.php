@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Larna – Education & Courses HTML Template</title>
+    <title><?= $page_title ?></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Place favicon.ico in the root directory -->
@@ -113,7 +113,7 @@
                     <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12 col-12">
                         <div class="title text-center mb-50">
                             <h2 class="text-white mb-30">
-                                <span class="f-700">22 Years</span> Experience in
+                                <span class="f-700">10 Years</span> Experience in
                                 <span class="f-700">Education</span> and
                                 <span class="f-700">Teaching</span>
                             </h2>
@@ -129,22 +129,7 @@
                 <!-- /row -->
 
                 <div class="row justify-content-center">
-                    <div
-                        class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12 justify-content-center">
-                        <div class="home3-single-fact text-center mb-40 tilt">
-                            <div class="fact-icon mb-25">
-                                <img src="client_assets/images/icon/about-fact-icon1.png" alt="" />
-                            </div>
-                            <!-- /fact-icon -->
-                            <div class="d-flex align-items-center justify-content-center">
-                                <span class="text-white f-500 d-inline-block counter">1000</span>
-                                <span class="per text-white d-inline-block f-700">+</span>
-                            </div>
-                            <p class="text-white text-center mb-0">Online Courses</p>
-                        </div>
-                        <!-- /single-fact -->
-                    </div>
-                    <!-- /col -->
+                   
 
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
                         <div class="home3-single-fact text-center tilt">
@@ -178,21 +163,7 @@
                     </div>
                     <!-- /col -->
 
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="home3-single-fact text-center tilt">
-                            <div class="fact-icon mb-25">
-                                <img src="client_assets/images/icon/about-fact-icon4.png" alt="" />
-                            </div>
-                            <!-- /fact-icon -->
-                            <div class="d-flex align-items-center justify-content-center">
-                                <span class="text-white f-500 d-inline-block counter">10000</span>
-                                <span class="per text-white d-inline-block f-700">+</span>
-                            </div>
-                            <p class="text-white text-center mb-0">Hours Content</p>
-                        </div>
-                        <!-- /single-fact -->
-                    </div>
-                    <!-- /col -->
+                   
                 </div>
                 <!-- /row -->
             </div>
@@ -361,350 +332,9 @@
         </div>
         <!-- about-feature-area -end -->
 
-        <!-- ====== instructor-area-start=============================================== -->
-        <div
-            class="about-page-instructor-area about-page2-instructor-bg over-hidden mt-170 pt-155 pb-120 mb-155">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-8 col-md-10 col-sm-12 col-12">
-                        <div class="title text-center">
-                            <h2 class="mb-30">
-                                Our <span class="f-700">Amazing</span> People
-                            </h2>
-                            <p>
-                                Nullam at elementum odque auctor dui. Donec non nunc sodales
-                                massa finibus impe tomaer majhe keu rdiet.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- /col -->
-                </div>
-                <!-- /row -->
+        
 
-                <div class="row about-page-instructor-wrappwer mt-60">
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="row single-about-page2-instructor mb-50">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-                                <div
-                                    class="about-page2-instructor-img text-center mt-lg-2 mt-0">
-                                    <img
-                                        class="rounded-circle"
-                                        src="client_assets/images/about-page/about-instructor-img1.jpg"
-                                        alt="instructor-image01" />
-                                </div>
-                                <!-- /instructor-img -->
-                            </div>
-                            <!-- /col -->
-
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
-                                <div
-                                    class="about-page2-instructor-content text-center text-sm-left">
-                                    <h6 class="mb-1"><span class="f-700">Bruce</span> Wayne</h6>
-                                    <p class="secondary-color3 mb-15">Founder</p>
-                                    <p class="mb-15">
-                                        Excepteur sint occaecat cupid atat non proid ent, sunt in
-                                        culpa qui off icia desew eru uso nt mollit an im id est
-                                        labor um. Sed ut piatis.
-                                    </p>
-                                    <ul class="social-link">
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="facebook-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="twitter-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="google-plus-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="linked-in-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <!-- social-link -->
-                                </div>
-                            </div>
-                            <!-- /col -->
-                        </div>
-                        <!-- /row -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="row single-about-page2-instructor mb-50">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-                                <div
-                                    class="about-page2-instructor-img text-center mt-lg-2 mt-0">
-                                    <img
-                                        class="rounded-circle"
-                                        src="client_assets/images/about-page/about-instructor-img2.jpg"
-                                        alt="instructor-image02" />
-                                </div>
-                                <!-- /instructor-img -->
-                            </div>
-                            <!-- /col -->
-
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
-                                <div
-                                    class="about-page2-instructor-content text-center text-sm-left">
-                                    <h6 class="mb-1">
-                                        <span class="f-700">Peter</span> Parker
-                                    </h6>
-                                    <p class="secondary-color3 mb-15">Founder</p>
-                                    <p class="mb-15">
-                                        Excepteur sint occaecat cupid atat non proid ent, sunt in
-                                        culpa qui off icia desew eru uso nt mollit an im id est
-                                        labor um. Sed ut piatis.
-                                    </p>
-                                    <ul class="social-link">
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="facebook-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="twitter-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="google-plus-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="linked-in-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <!-- social-link -->
-                                </div>
-                            </div>
-                            <!-- /col -->
-                        </div>
-                        <!-- /row -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="row single-about-page2-instructor mb-50">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-                                <div
-                                    class="about-page2-instructor-img text-center mt-lg-2 mt-0">
-                                    <img
-                                        class="rounded-circle"
-                                        src="client_assets/images/about-page/about-instructor-img3.jpg"
-                                        alt="instructor-image03" />
-                                </div>
-                                <!-- /instructor-img -->
-                            </div>
-                            <!-- /col -->
-
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
-                                <div
-                                    class="about-page2-instructor-content text-center text-sm-left">
-                                    <h6 class="mb-1">
-                                        <span class="f-700">Bruce</span> Prince
-                                    </h6>
-                                    <p class="secondary-color3 mb-15">Founder</p>
-                                    <p class="mb-15">
-                                        Excepteur sint occaecat cupid atat non proid ent, sunt in
-                                        culpa qui off icia desew eru uso nt mollit an im id est
-                                        labor um. Sed ut piatis.
-                                    </p>
-                                    <ul class="social-link">
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="facebook-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="twitter-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="google-plus-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="linked-in-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <!-- social-link -->
-                                </div>
-                            </div>
-                            <!-- /col -->
-                        </div>
-                        <!-- /row -->
-                    </div>
-                    <!-- /col -->
-
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                        <div class="row single-about-page2-instructor mb-50">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
-                                <div
-                                    class="about-page2-instructor-img text-center mt-lg-2 mt-0">
-                                    <img
-                                        class="rounded-circle"
-                                        src="client_assets/images/about-page/about-instructor-img4.jpg"
-                                        alt="instructor-image04" />
-                                </div>
-                                <!-- /instructor-img -->
-                            </div>
-                            <!-- /col -->
-
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
-                                <div
-                                    class="about-page2-instructor-content text-center text-sm-left">
-                                    <h6 class="mb-1"><span class="f-700">Clark</span> Kent</h6>
-                                    <p class="secondary-color3 mb-15">Founder</p>
-                                    <p class="mb-15">
-                                        Excepteur sint occaecat cupid atat non proid ent, sunt in
-                                        culpa qui off icia desew eru uso nt mollit an im id est
-                                        labor um. Sed ut piatis.
-                                    </p>
-                                    <ul class="social-link">
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="facebook-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="twitter-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="google-plus-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-google-plus-g"></i></a>
-                                        </li>
-                                        <li class="d-inline-block">
-                                            <a
-                                                class="linked-in-color pr-10 d-inline-block transition-3"
-                                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                    <!-- social-link -->
-                                </div>
-                            </div>
-                            <!-- /col -->
-                        </div>
-                        <!-- /row -->
-                    </div>
-                    <!-- /col -->
-                </div>
-                <!-- /row -->
-            </div>
-            <!-- /container -->
-        </div>
-        <!-- instructor-area-end  -->
-
-        <!-- ====== brand-area-start=============================================== -->
-        <div
-            class="brand-area about-page-brand about-page2-brand pb-135 over-hidden">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12 col-12">
-                        <div class="title text-center">
-                            <h2 class="mb-30">
-                                Our <span class="f-700">Beloved</span> Partners
-                            </h2>
-                            <p>
-                                Nullam at elementum odque auctor dui. Donec non nunc sodales
-                                massa finibus impe tomaer majhe keu rdiet.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- /col -->
-                </div>
-                <!-- /row -->
-
-                <div class="row about-page2-brand-wrapper mt-60">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="row align-items-center justify-content-center">
-                            <div
-                                class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 text-center">
-                                <div class="single-brand mb-30 d-block text-center">
-                                    <img
-                                        class="d-inline-block"
-                                        src="client_assets/images/brand/brand-logo1.png"
-                                        alt="image" />
-                                </div>
-                            </div>
-                            <!-- /col -->
-                            <div
-                                class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 text-center">
-                                <div class="single-brand mb-30 d-block text-center">
-                                    <img
-                                        class="d-inline-block"
-                                        src="client_assets/images/brand/brand-logo2.png"
-                                        alt="image" />
-                                </div>
-                            </div>
-                            <!-- /col -->
-                            <div
-                                class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 text-center">
-                                <div class="single-brand mb-30 d-block text-center">
-                                    <img
-                                        class="d-inline-block"
-                                        src="client_assets/images/brand/brand-logo3.png"
-                                        alt="image" />
-                                </div>
-                            </div>
-                            <!-- /col -->
-                            <div
-                                class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 text-center">
-                                <div class="single-brand mb-30 d-block text-center">
-                                    <img
-                                        class="d-inline-block"
-                                        src="client_assets/images/brand/brand-logo4.png"
-                                        alt="image" />
-                                </div>
-                            </div>
-                            <!-- /col -->
-                            <div
-                                class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 text-center">
-                                <div class="single-brand mb-30 d-block text-center">
-                                    <img
-                                        class="d-inline-block"
-                                        src="client_assets/images/brand/brand-logo5.png"
-                                        alt="image" />
-                                </div>
-                            </div>
-                            <!-- /col -->
-                            <div
-                                class="col-xl-2 col-lg-2 col-md-4 col-sm-4 col-4 text-center">
-                                <div class="single-brand mb-30 d-block text-center">
-                                    <img
-                                        class="d-inline-block"
-                                        src="client_assets/images/brand/brand-logo6.png"
-                                        alt="image" />
-                                </div>
-                            </div>
-                            <!-- /col -->
-                        </div>
-                        <!-- /row -->
-                    </div>
-                    <!-- /col -->
-                </div>
-                <!-- /row -->
-            </div>
-            <!-- /container -->
-        </div>
-        <!-- brand-area-end  -->
+       
     </main>
 
     <!-- ====== footer-area-start ============================================ -->

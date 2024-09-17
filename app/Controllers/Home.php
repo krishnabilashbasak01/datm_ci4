@@ -6,30 +6,51 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('client/home');
+        $data['page_title'] = 'Datm';
+        $data['page_desc'] = '';
+        $data['page_kw'] = '';
+        return view('client/home', $data);
     }
     public function about(): string
     {
-        return view('client/about');
+        $data['page_title'] = 'Datm';
+        $data['page_desc'] = '';
+        $data['page_kw'] = '';
+        return view('client/about', $data);
     }
 
     public function courses(): string{
-        return view('client/courses');
+        $data['page_title'] = 'Datm';
+        $data['page_desc'] = '';
+        $data['page_kw'] = '';
+        return view('client/courses', $data);
     }
 
     public function placement(): string{
-        return view('client/placement');
+        $data['page_title'] = 'Datm';
+        $data['page_desc'] = '';
+        $data['page_kw'] = '';
+        return view('client/placement', $data);
     }
 
     public function campus(): string{
-        return view('client/campus');
+        $data['page_title'] = 'Datm';
+        $data['page_desc'] = '';
+        $data['page_kw'] = '';
+        return view('client/campus', $data);
     }
 
     public function events(): string{
-        return view('client/events');
+        $data['page_title'] = 'Datm';
+        $data['page_desc'] = '';
+        $data['page_kw'] = '';
+        return view('client/events', $data);
     }
 
     public function contact(): string{
-        return view('client/contact');
+        $data['page_title'] = 'Datm';
+        $data['page_desc'] = '';
+        $data['page_kw'] = '';
+        return view('client/contact', $data);
     }
 }

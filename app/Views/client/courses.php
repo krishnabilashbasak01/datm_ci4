@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Larna – Education & Courses HTML Template</title>
+    <title><?= $page_title ?></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Place favicon.ico in the root directory -->
@@ -127,23 +127,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/1.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -167,17 +162,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">M.SC IN Computer Science</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -193,23 +180,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/2.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -233,17 +215,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">Dietetics & Nutrition</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -259,23 +233,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/3.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">MASTER</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -299,17 +268,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">Master In Public Health</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -325,23 +286,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/4.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -365,17 +321,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">M.SC In Clinical Psychology</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -391,23 +339,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/5.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">M.SC</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -431,17 +374,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">M.SC In Medical Lab Technology</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                               
                                             </div>
                                             <!-- /course-content -->
 
@@ -457,23 +392,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/6.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">BMLT</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -497,17 +427,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">BMLT (Bachelor Of Medical Laboratory Technology)</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -523,23 +445,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/7.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">BCA</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -563,17 +480,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">BCA (Bachelor Of Computer Applications)</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -589,23 +498,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/8.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">BOPTM</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -629,17 +533,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">BOPTM (Bachelor Of Optometry)</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                               
                                             </div>
                                             <!-- /course-content -->
 
@@ -655,23 +551,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/9.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">BBA</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -695,17 +586,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">BBA (Bachelor Of Business Administration)</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                               
                                             </div>
                                             <!-- /course-content -->
 
@@ -721,23 +604,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/10.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">B.SC</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -761,17 +639,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">B.SC (Bachelor Of Science)</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -787,23 +657,18 @@
                                             <div class="p-course-img over-hidden position-relative">
                                                 <img
                                                     class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
+                                                    src="assets/uploads/courses/11.jpg"
                                                     alt="course-image01" />
 
                                                 <div class="pc-category z-index1 position-absolute">
                                                     <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
+                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">BHM</span>
                                                 </div>
                                                 <!-- /pc-category  -->
                                             </div>
                                             <!-- /p-course img -->
 
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
+                                           
                                         </div>
 
                                         <div
@@ -827,17 +692,9 @@
                                             <div
                                                 class="single-popular-course-content primary-border-bottom pb-6">
                                                 <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
+                                                    <a href="course-details.html">BHM (Bachelor Of Hotel Management)</a>
                                                 </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
+                                                
                                             </div>
                                             <!-- /course-content -->
 
@@ -847,72 +704,7 @@
                                     <!-- /single-course -->
                                 </div>
                                 <!-- /col -->
-                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                                    <div class="single-popular-course zoom-img-hover">
-                                        <div class="position-relative">
-                                            <div class="p-course-img over-hidden position-relative">
-                                                <img
-                                                    class="w-100 img"
-                                                    src="client_assets/images/course/popular-course-img1.jpg"
-                                                    alt="course-image01" />
-
-                                                <div class="pc-category z-index1 position-absolute">
-                                                    <span
-                                                        class="text-white f-500 theme-bg d-inline-block py-1 px-3">Softweare</span>
-                                                </div>
-                                                <!-- /pc-category  -->
-                                            </div>
-                                            <!-- /p-course img -->
-
-                                            <div class="pc-author-img z-index1 position-absolute">
-                                                <img
-                                                    src="client_assets/images/course/course-author-img1.jpg"
-                                                    alt="" />
-                                            </div>
-                                            <!-- /author-img -->
-                                        </div>
-
-                                        <div
-                                            class="popular-course-content-wrapper bg-white pt-25 pl-30 pr-30">
-                                            <div
-                                                class="popular-course-review d-flex align-items-center mb-1">
-                                                <ul class="review-ratting mr-10">
-                                                    <li>
-                                                        <span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span><span><i class="fa fa-star"></i></span>
-                                                        <span><i class="fa fa-star"></i></span>
-                                                    </li>
-                                                </ul>
-                                                <!-- /review-ratting -->
-                                                <div class="p-c-review">
-                                                    <p class="mb-0">243 Review</p>
-                                                </div>
-                                                <!-- /p-c-review -->
-                                            </div>
-                                            <!-- /popular-course-review -->
-
-                                            <div
-                                                class="single-popular-course-content primary-border-bottom pb-6">
-                                                <h3>
-                                                    <a href="course-details.html">Design for the web with Abobe Illustrator and
-                                                        photoshop</a>
-                                                </h3>
-                                                <p class="admin mb-2">
-                                                    By
-                                                    <span class="theme-color f-500 d-inline-block">Cristofer Neilson</span>
-                                                </p>
-                                                <p>
-                                                    At torem ipsum conse icing elit, sed do eiusmod
-                                                    tempor iur onre dol ...
-                                                </p>
-                                            </div>
-                                            <!-- /course-content -->
-
-                                        </div>
-                                        <!-- /popular-course-content-wrapper -->
-                                    </div>
-                                    <!-- /single-course -->
-                                </div>
-                                <!-- /col -->
+                               
 
                                 
                             </div>
